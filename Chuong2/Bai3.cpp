@@ -6,13 +6,17 @@ using namespace std;
 int main(){
 	ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 	
-	matrix a, b;
-	a.read();
-	b.read();
+	matrix A, B;
+	A.read();
+	B.read();
 	
-	(a + b).print(); cout <<endl;
-	(a - b).print(); cout << endl;
-	(a ^ b).print(); cout <<endl;
+    cout << "A + B:\n";
+    (A + B).print();
+    cout << "A - B:\n";
+    (A - B).print();
+    cout << "A x B:\n";
+    (A ^ B).print();
+
 	
 }
 /*
