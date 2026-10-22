@@ -13,8 +13,8 @@ public:
 	~cArray(){
 		delete[] arr;
 	}
-	friend void operator >> (istream &inp, cArray &a);
-	friend void operator << (ostream &out, const cArray &a);
+	friend istream& operator >> (istream &inp, cArray &a);
+	friend ostream& operator << (ostream &out, const cArray &a);
 	friend void randomize (const int n,  cArray &a);
 	
 	int count(int X){
@@ -43,17 +43,19 @@ public:
 		sort(arr, arr + n);
 	}
 };
-void operator >> (istream &inp, cArray &a){
+istream& operator >> (istream &inp, cArray &a){
 	inp >> a.n;
 	delete[] a.arr;
 	a.arr=new int[a.n];
 	for (int i = 0; i <	 a.n; i ++ )
 		inp >> a.arr[i];
+	return inp;
 }
-void operator << ( ostream &out, const cArray &a){
+ostream& operator << ( ostream &out, const cArray &a){
 	for (int i = 0; i < a.n; i ++ )
 		out << a.arr[i] <<" ";
 	out <<"\n";
+	return out;
 }
 void randomize (const int n, cArray &a){
 	a.n = n;

@@ -83,6 +83,7 @@ public:
 istream& operator >> (istream &inp, arrPhanSo &A){
 	inp >> A.n; 
 	delete[] A.arr;
+	A.arr = new PhanSo[A.n];
 	for (int i = 0; i < A.n; i ++ )
 		inp >> A.arr[i];
 	return inp;

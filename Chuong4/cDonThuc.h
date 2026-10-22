@@ -16,8 +16,8 @@ public:
 			x = 1/x;
 			_b = -b;
 		}
-		while (b > 0){
-			if (b % 2 ) res *= x;
+		while (_b > 0){
+			if (_b % 2 ) res *= x;
 			
 			x = x * x;
 			_b /= 2;
