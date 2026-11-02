@@ -1,0 +1,25 @@
+﻿3
+1
+NV001
+Nguyen Van Dev
+25
+0901234567
+dev@hoancau.com
+15000000
+10
+2
+NV002
+Tran Thi Tester
+23
+0912345678
+test@hoancau.com
+10000000
+20
+1
+NV003
+Le Van Coder
+28
+0987654321
+coder@hoancau.com
+20000000
+5

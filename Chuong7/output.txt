@@ -1,0 +1,12 @@
+﻿
+DANH SACH NHAN VIEN CONG TY ABC
+[Van Phong] Ho ten: Nguyen Van A | Ngay sinh: 15/03/1995 | LCB: 5000000 | Luong thuc nhan: 10400000 | Ngay lam: 22 | Tro cap: 1000000
+[San Xuat]  Ho ten: Tran Van B | Ngay sinh: 20/11/1998 | LCB: 4000000 | Luong thuc nhan: 7000000 | So san pham: 1500
+[Quan Ly]   Ho ten: Le Van C | Ngay sinh: 01/01/1985 | LCB: 10000000 | Luong thuc nhan: 30000000 | He so CV: 2 | Thuong: 5000000
+
+TONG LUONG CUA CONG TY
+Tong chi tra luong: 47400000 VND
+
+TIM KIEM NHAN VIEN THEO HO TEN
+Ket qua tim kiem cho "Nguyen Van A":
+[Van Phong] Ho ten: Nguyen Van A | Ngay sinh: 15/03/1995 | LCB: 5000000 | Luong thuc nhan: 10400000 | Ngay lam: 22 | Tro cap: 1000000
